@@ -10,7 +10,9 @@
   padding: 20px;
   background-color: #eff3f4;
 }
-
+.q1__content__box:first-child {
+  margin-left: 0;  
+}
 
 }
 
