@@ -4,8 +4,8 @@
 .wrapper {
   }
 
-.q1 q1__content {
-  width: 940px;
+.q1 q1__content clearfix {
+  width: 900px;
   margin: 0;
   padding: 20px;
   background-color: #eff3f4;
@@ -13,6 +13,8 @@
 .q1__content__box:first-child {
   margin-left: 0;  
 }
+
+.q1__contents
 
 }
 
