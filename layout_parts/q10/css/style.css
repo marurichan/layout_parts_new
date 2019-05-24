@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.q10__balloon {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border:5px solid #222;
+  border-radius: 30px;
+}
+
+.q10__balloon::before,
+.q10__balloon::after {
+  content: '';
+  border: 20px solid transparent;
+  position: absolute;
+  
+  
+}
+
+.q10__balloon::before { /* 線になる部分 */
+  border-top-color: #222; /* 吹き出しの線の色と同じ色 */
+  bottom: -45px;
+  left: 30px;
+}
+.q10__balloon::after { /* 地の部分 */
+  border-top-color: #fff; /* 吹き出しの背景色と同じ色 */
+  bottom: -38px;
+  left: 30px
+}
+回答はここに書いてね
