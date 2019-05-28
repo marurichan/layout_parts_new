@@ -13,7 +13,7 @@
   font-size: 100%;
 } */
 
-.q2 {
+.q2__part {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
@@ -32,8 +32,6 @@
 .q2__thumb.is-right {
   float: right;
   margin-left: 20px;
-  margin-bottom:10px; 
-
 }
 
 .q2__text {
@@ -41,34 +39,6 @@
   font-size: 18px;
   line-height: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

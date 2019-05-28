@@ -15,19 +15,17 @@
 .q10__balloon::after {
   content: '';
   border: 20px solid transparent;
-  position: absolute;
-  
-  
-}
+  position: absolute; 
+} 
 
 .q10__balloon::before { /* 線になる部分 */
   border-top-color: #222; /* 吹き出しの線の色と同じ色 */
   bottom: -45px;
   left: 30px;
 }
+
 .q10__balloon::after { /* 地の部分 */
   border-top-color: #fff; /* 吹き出しの背景色と同じ色 */
   bottom: -38px;
-  left: 30px
+  left: 30px;
 }
-回答はここに書いてね

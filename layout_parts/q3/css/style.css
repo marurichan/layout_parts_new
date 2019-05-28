@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-
 .q3__contents {
   width: 100%;
   border: solid 1px #dedede;  
@@ -29,7 +28,6 @@
   line-height: 26px;
 }
 
-
 .q3__contents tr:nth-child(even) {
   background-color: #ecf1f2;
 }
@@ -37,6 +35,3 @@
 .q3__contents tbody tr:last-child {
   border-top: 2px dashed #000;
 }
-
-
-

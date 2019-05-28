@@ -4,7 +4,7 @@
 
 /* 回答はここに書いてね */
 
-.q4 {
+.q4__box {
   padding: 20px;
   box-sizing: border-box;
 }
@@ -12,6 +12,7 @@
 .q4__contents:first-child {
   margin-top: 0;
 }
+
 .q4__contents {
   display: table;
   margin-top: 20px;
@@ -29,6 +30,7 @@
   padding: 20px;
   text-align: center;
 }
+
 .q4__contents__cell.is-purple {
   background-color: #E0ABD9;
 }

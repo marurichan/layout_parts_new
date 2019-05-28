@@ -21,7 +21,7 @@
   clear: both;
 }
 
-.q7--table .q7__inner {
+.q7--table .q7__inner__1 {
   display: table;
 }
 
@@ -34,6 +34,7 @@
   padding-left: 50px;
   vertical-align: middle;
 }
+
 .q7--inlineblock .q7__inner {
   font-size: 0;
 }
@@ -58,7 +59,6 @@
 
 .q7--flex .q7__box {
   font-size: 16px;
-  vertical-align: middle;
   box-sizing: border-box;
 }
 
@@ -70,6 +70,7 @@
   display: inline-block;
   width: 300px;
 }
+
 .q7--margin .q7__box.is-flexible {
   display: inline-block;
   width: 100%;
@@ -77,28 +78,14 @@
   padding-left: 350px;
   box-sizing: border-box;
 }
-.q7--margin .q7__box {
-  vertical-align: top;
-}
 
 .q7--margin .q7__box {
   vertical-align: top;
 }
+
 .q7--margin .q7__box__text {
   font-size: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

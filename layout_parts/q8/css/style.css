@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
 .title {
   font-weight: bold;
@@ -102,6 +107,7 @@
   float: left;
   width: 300px;
 }
+
 .q8__main__items {
   margin-bottom: 20px;
 }
@@ -151,11 +157,10 @@
   box-sizing: border-box;
 }
 
-.q8__input:focus{
+.q8__input:focus {
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
   border:2px solid #00BCD4;
 }
-
 
 .q8__radio {
   cursor: pointer;
@@ -195,16 +200,7 @@
   background-color: #00BCD4;
   border-radius: 50%;
   content: '';
-  opacity: 1;
 }
-
-
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
 
 .q8__select {
   position: relative;
@@ -221,14 +217,6 @@
   cursor: pointer;
 }
 
-option {
-  font-weight: normal;
-  display: block;
-  white-space: pre;
-  min-height: 1.2em;
-  padding: 0px 2px 1px;
-}
-
 .q8__main__items__title .is-required {
   color: #F00;
 }
@@ -236,7 +224,6 @@ option {
 .q8__checkbox {
   text-align: right;
 }
-
 
 .q8__checkbox__btn {
   display: none;
@@ -273,12 +260,6 @@ option {
   content: '';
 }
 
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
 .q8__main__bottom {
   text-align: right;
 }
@@ -293,11 +274,14 @@ option {
   line-height: 26px;
 }
 
-.q8__main__bottom__btn:active{
+.q8__main__bottom__btn:active {
   background-color: #FFF;
 }
 
-
+.q8__main__bottom__btn:focus {
+  color: #00bcd4;
+}
+  
 .q8__side {
   float: right;
   width: 380px;
@@ -318,25 +302,6 @@ option {
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
   border:2px solid #00BCD4;
 }
-
-
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

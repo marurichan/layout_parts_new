@@ -11,12 +11,14 @@
   cursor: pointer;
 }
 
+.q9__trans > .q9__trans__thumb {
+  transition: all .5s;
+}
 
 .q9__trans:hover > .q9__trans__thumb {
   transition: all .5s;
   transform: scale(1.5);
 }
-
 
 .q9__trans:hover > .q9__trans__desc {
   bottom: 0;
@@ -32,6 +34,12 @@
   transition: all .5s; 
 }
 
+.q9__trans__desc:hover{
+  opacity: 1;
+  transition: all 1.5s ease;
+  padding-bottom: 0;
+}
+
 .q9__trans__desc__text {
   position: absolute;
   bottom: 0;
@@ -43,16 +51,14 @@
   word-break: break-all;
 }
 
-
-.q9__trans__desc__text:hover {
+/* .q9__trans__desc__text:hover {
   opacity: 1;
   transition: all 1.5s ease;
   padding-bottom: 0;
-}
+} */
 
 .hover-parent:hover .hover-mask {
   padding-bottom: 30px;
-    
 }
 
 .q9__anima {
@@ -73,5 +79,4 @@
       transform:rotate(360deg);
   }
 }
-
 /* 回答はここに書いてね */
