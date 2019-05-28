@@ -8,13 +8,6 @@
   background-color: #ECF1F2;
 }
 
-.q5__box.is-8 {
-  z-index: 8;
-  top: 120px;
-  left: 120px;
-  background-color: #DE70CF;
-}
-
 .q5__box {
   position: absolute;
   width: 100px;
@@ -22,6 +15,13 @@
   font-size: 30px;
   line-height: 100px;
   text-align: center;
+}
+
+.q5__box.is-8 {
+  z-index: 8;
+  top: 120px;
+  left: 120px;
+  background-color: #DE70CF;
 }
 
 .q5__box.is-8:after {
@@ -90,14 +90,6 @@
   left: 10px;
   background-color: #2B69A3;
 }
-
-
-
-
-
-
-
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
