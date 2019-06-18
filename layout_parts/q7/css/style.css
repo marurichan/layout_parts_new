@@ -5,41 +5,49 @@
   clear: both;
 }
 
-.q7--float .q7__box:first-child {
+.float__all .common__box {
+  width: 225px;
+}
+
+.float__all .common__box:first-child {
   margin-left: 0;
 }
 
-.q7--float .q7__box {
+.float__all .common__box {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.q7 .q7__box {
-  width: 225px;
+.table__all .inner__content {
+  display: table;
 }
 
-.q7--table .q7__box:first-child {
-  padding-left: 0;
-}
-
-.q7--table .q7__box {
+.table__all .common__box {
   font-size: 16px;
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
 
-.q7--inlineblock .q7__box:first-child {
-  margin-left: 0;
+.table__all .common__box {
+  width: 225px;
 }
 
-.q7--inlineblock .q7__inner {
+.table__all .common__box:first-child {
+  padding-left: 0;
+}
+
+.inline__all .inline__box{
+  width:225px;
+}
+
+.inline__all .inner__content {
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box {
+.inline__all .inline__box {
   display: inline-block;
   margin-left: 50px;
   font-size: 16px;
@@ -47,19 +55,27 @@
   box-sizing: border-box;
 }
 
-.q7--flex .q7__inner {
+.inline__all .inline__box:first-child {
+  margin-left: 0;
+}
+
+.flex__all .common__box {
+  width: 225px;
+}
+
+.flex__all .inner__content {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
+.flex__all .common__box {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--margin .q7__box:first-child {
+.q7--margin .common__box:first-child {
   margin-left: 0;
 }
 

@@ -10,7 +10,6 @@ transition: all 5s;
 }
 
 .q9__car:hover > .q9__car__pict {
-  transition: all .5s;
   transform: scale(1.5);
 }
 

@@ -93,12 +93,12 @@
   width: 300px;
 }
 
-.q8__box__items {
+.q8__box__main > li {
   margin-bottom: 20px;
 }
 
 .q8__box__main {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .q8__box__items > li:first-child {
@@ -132,16 +132,51 @@
   border:none;
 }
 
-.q8__input {
+.input__original {
+  padding: 0;
   border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-.input:focus {
+.q8__input {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.q8__input:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
 .q8__box__items {
   cursor: pointer;
+}
+
+.q8__prefecture {
+  position:relative ;
+}
+
+.q8__prefecture:after {
+  display:block;
+  position: absolute;
+  top:4px;
+  right: 10px;
+  width:8px;  
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
 }
 
 .q8__prefecture__items {
@@ -166,7 +201,7 @@
   padding: 3px 3px 3px 20px;
 }
 
-.q8__radio__text:before {
+.radio__btn__text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -175,6 +210,18 @@
   margin-top: -8px;
   background-color: #fff;
   border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio__btn:checked + .radio__btn__text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
   border-radius: 50%;
   content: '';
 }
@@ -219,7 +266,7 @@
   display:block;
 }
 
-.q8__box__btn {
+.q8__submit__btn {
   text-align: right;
 }
 
@@ -262,8 +309,8 @@
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
+  border: none;
 }
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

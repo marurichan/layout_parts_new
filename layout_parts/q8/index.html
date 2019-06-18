@@ -37,7 +37,6 @@
             <div class="q8__btn q8__btn__small q8__btn__disabled">disabled</div>
             <div class="q8__btn q8__btn__small q8__btn__shadow">shadow</div>
           </div>
-
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
             <div class="q8__btn q8__btn__middle q8__btn__common">common</div>
@@ -45,7 +44,6 @@
             <div class="q8__btn q8__btn__middle q8__btn__disabled">disabled</div>
             <div class="q8__btn q8__btn__middle q8__btn__shadow">shadow</div>
           </div>
-
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
             <div class="q8__btn q8__btn__large q8__btn__common">common</div>
@@ -55,7 +53,6 @@
           </div>
           <!-- 回答はここに書いてね -->
         </div>
-
         <div class="box__inner">
           <h3 class="box__headline">
             <p class="box__headline__text">ー Q8-2 フォーム ー</p>
@@ -107,11 +104,10 @@
                 <div class="q8__box">
                   <ul class="q8__box__main">
                     <li class="clearfix">              
-                      <label class="label" for="name" name="name">名前
-                      <span class="is-required">*</span>
+                      <label class="label" for="name" name="name">名前<span class="is-required">*</span>
                       </label>
-                    <div class="q8__box__items">                                       
-                      <input class="input q8__input" type="text" required>                                                             
+                      <div class="q8__box__items">                                       
+                      <input class="q8__input input__original" type="text" required>                                                             
                     </div>
                   </li>
                     <li class="clearfix">                                             
@@ -129,28 +125,26 @@
                     </li>   
                     <li class="clearfix">                                          
                       <label class="label" for="hometown" name="hometown">出身</label>
-                      <div class="q8__box__items"> 
-                        <select name="hometown" class="q8__prefecture__items">
+                      <div class="q8__box__items q8__prefecture"> 
+                        <select name="hometown" class="q8__prefecture__items input__original">
                           <option value="tokyo">東京</option>
                           <option value="saitama">埼玉</option>
                           <option value="chiba">千葉</option>
                           <option value="kanagawa">神奈川</option>
-                        </select>  
-                                
+                        </select>
                       </div>
                     </li>
-                    <li class="clearfix">                                             
-                      <label class="label" for="e-mail" name="e-mail">Eメール
-                      <span class="is-required">*</span>
+                    <li class=clearfix>                                             
+                      <label class="label" for="e-mail" name="e-mail">Eメール<span class="is-required">*</span>
                       </label>
                       <div class="q8__box__items">
-                      <input type="email" placeholder="ex)hoge@gmail.com" class="input" name="email">                        
+                      <input type="email" placeholder="ex) hoge@gmail.com" class="q8__input input__original" name="email" required>                        
                       </div>
                     </li>
                     <li class="clearfix">                                              
                         <label class="label" for="number" name="number">電話番号</label>
                       <div class="q8__box__items">
-                        <input type="text" placeholder="ex)08012345678" class="input" name="number">                      
+                        <input type="text" placeholder="ex) 08012345678" class="q8__input input__original" name="number" required>                      
                       </div>
                     </li>
                     <li class="clearfix">
@@ -159,11 +153,11 @@
                           <input class="q8__checkbox__btn" type="checkbox" name="twenty" value="true">
                           <span class="checkbox__text">20歳以上です</span>
                         </label>
-                        </div>                                                
+                      </div>                                                
                     </li>
                   </ul>                                     
-                    <div class="q8__box__btn">
-                    <input type="submit" class="submit-btn">
+                    <div class="q8__submit__btn">
+                    <button class="submit-btn input__original" type="submit">送信</button>
                     </div>
                   </div>                                
                     <div class="q8__comment">
