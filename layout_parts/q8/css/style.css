@@ -97,6 +97,10 @@
   margin-bottom: 20px;
 }
 
+.q8__box__main > li:last-child {
+  margin-bottom: 0;
+}
+
 .q8__box__main {
   margin-bottom: 20px;
 }
